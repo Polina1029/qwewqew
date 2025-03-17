@@ -143,7 +143,7 @@ nav a span {
     position: fixed;
     right: 20px;
     width: 26px;
-    height: 26px;
+    top: 25px;
     cursor: pointer;
     z-index: 1000;
 }
@@ -787,6 +787,15 @@ form input:hover {
 /* Адаптив */
 /* mobile */
 @media screen and (max-width: 600px) {
+.menu_comp {
+        display: none;
+    }
+
+    .menu_mob {
+        display: block;
+    }
+
+    
     .container {
         max-width: 400px;
         margin: 0 auto;
