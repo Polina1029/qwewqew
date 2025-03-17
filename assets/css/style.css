@@ -1081,6 +1081,14 @@ form input:hover {
         font-size: 14px;
     }
 
+    .footer img {
+        width: 300px;
+        height: 100%;
+        display: flex;
+        align-aitems: center;
+        justify-content: center;
+    }
+
     .footer_menu {
         display: flex;
         height: 130px;
